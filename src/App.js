@@ -1,5 +1,5 @@
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import './App.css';
 import { AddToCart } from './components/./Product/AddToCart';
 import { Header } from './components/Header/Header';
@@ -20,9 +20,6 @@ const[modal,setModal]=useState(false)
 const[cartstyle,setCartStyle]=useState("badge-none")
 const[cartitems,setCartItems]=useState(0)
 const[headermodal,setHeaderModal]=useState(false)
-// useEffect(()=>{
-// fetch("https://www.googleapis.com/webfonts/v1/webfonts?key=AIzaSyC9DraHQGbsFtKyBmWafzoURbfqbVs3FJU").then(data=>data.json()).then(res=>Setgooglefonts(res))
-// },[])
 const toggleModal=()=>{
 setModal(!modal)
 }
