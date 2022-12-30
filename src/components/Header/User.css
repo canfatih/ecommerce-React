@@ -1,0 +1,16 @@
+.useravatar{
+    height: 50px;
+    width: 50px;
+   
+}
+.useravatar:hover{
+    border: 3px solid hsl(26, 100%, 55%);
+    border-radius:  50px/50px;
+    cursor: pointer;
+}
+@media (max-width:930px) {
+    .useravatar{
+        height: 25px;
+        width: 25px;
+    }
+}

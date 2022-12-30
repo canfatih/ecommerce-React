@@ -1,0 +1,23 @@
+.headermodal{
+background-color: rgba(0, 0, 0, 0.5);
+position: absolute;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+
+}
+
+.header-modal-full{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    z-index: 1;
+    
+}
+.header-modal-content{
+    display: flex;
+    margin-top: 15px;
+    position: fixed;
+    
+}

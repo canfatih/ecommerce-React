@@ -1,0 +1,41 @@
+.addtocartcomp{
+    width: 50%;
+    height: 100%;
+  
+    margin: 3%;
+}
+
+.addtocartcomp h4{
+    color: hsl(26, 100%, 55%);
+    font-size: 20px;
+}
+.addtocartcomp h1{
+    font-size: 50px;
+}
+.addtocartcomp p{
+
+    font-size: 23px;
+    color: hsl(219, 9%, 45%);
+}
+.pricediv{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.addtocartcomp .pricediv small{
+    background-color: hsl(25, 100%, 94%);
+    font-size: 25px;
+    padding: 10px;
+    font-weight: 700;
+    color: hsl(26, 100%, 55%);
+    border-radius: 10px;
+}
+.addtocartcomp h2{
+    color: hsl(219, 9%, 45%);
+    text-decoration:line-through;
+}
+.addtocartbuttons{
+display: flex;
+align-items: center;
+gap: 3%;
+}

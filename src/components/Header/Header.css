@@ -1,0 +1,73 @@
+.HeaderComp{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    height: 15vh;
+    font-family: "Kumbh Sans";
+ color: hsl(220, 14%, 75%);
+ font-weight: 400;
+}
+.mobilheader-logos{
+    display: none;
+}
+
+.headerleft{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    gap: 3vw;
+    height: 100%;
+    border-bottom: 3px solid rgb(241, 238, 238);
+}
+.headerright{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 40%;
+    justify-content: right;
+    gap: 3vw;
+    border-bottom: 3px solid rgb(241, 238, 238);
+}
+
+.headerhovers:hover{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+    border-bottom: 5px solid  hsl(26, 100%, 55%);
+    color: black;
+}
+@media (max-width:930px){
+    .HeaderComp{
+       margin: 0px;
+       padding: 0px;
+       height: 10vh;
+    }
+    .headerleft{
+        display: none;
+    }
+}
+@media (min-width:930px) and (max-width:1300px) {
+    .HeaderComp{
+        margin: 0px;
+        padding: 0px;
+        height: 10vh;
+    }
+
+}
+
+@media (max-width:930px) {
+    .mobilheader-logos{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 60%;
+        gap: 3vw;
+        border-bottom: 3px solid rgb(241, 238, 238);
+    }
+}
+
+
+
+
