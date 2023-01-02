@@ -1,6 +1,6 @@
 .buttonorangecomp{
     display: flex;
-    width: 60%;
+    width: 100%;
     gap: 7%;
     background-color: hsl(26, 100%, 55%);
     height: 70px;
